@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size:16px;
+    font-size: 16px;
     font-weight: 400;
     color: #7581a1;
     line-height: 26px;
@@ -24,14 +24,53 @@ h1 {
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #1085e4;
+    border: 1px solid #1085e4;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    color: #1085e4;
+}
+.btn-secondary {
+    background-color: #cbdbe8;
+    border: 1px solid #cbdbe8;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    color: #7e8bae;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.btn-secondary:hover{
+    background-color: #fff;
 }
 
 .btn-free {
-    font-style: 12px;
-    color: #fff;
-    text-transform: uppercase;
-    background-color: #1085e4;
+    font-weight: 400;
+    padding: 21px 56px;
+    letter-spacing: 1.7px;
 }
+
+.btn-group a+a {
+    margin-left: 15px;
+}
+
 /* /page-header */
 
 /* page-company */
@@ -39,20 +78,20 @@ h1 {
 /* /page-company */
 
 /* page-grid */
-.grid h2{
+.grid h2 {
     font-size: 40px;
     font-weight: 700;
     color: #192b59;
 }
 
-.grid h2 span{
+.grid h2 span {
     font-size: 14px;
     font-weight: 800;
     color: #1085e4;
     display: block;
 }
 
-.grid .grid-item h3{
+.grid .grid-item h3 {
     font-size: 20px;
     font-weight: 600;
     color: #192b59;
@@ -65,38 +104,58 @@ h1 {
     line-height: 26px;
 } */
 
-.grid .grid-item a{
+.grid .grid-item a {
     font-size: 14px;
     font-weight: 600;
     color: #1085e4;
 
 }
+
 /* /page-grid */
 
 /* page-subscribe */
-
 /* /page-subscribe */
 
 /* page-software */
-
 /* /page-software */
 
 /* page-stat */
-
 /* /page-stat */
 
 /* page-app */
-
 /* /page-app */
 
 /* page-analytics */
-
 /* /page-analytics */
 
 /* page-app2 */
-
 /* /page-app2 */
 
 /* page-screen */
-
 /* /page-screen */
+
+/* page-clients */
+/* /page-clients */
+
+/* page-plan */
+.btn-info{
+    color: #8085b1;
+    background-color: transparent;
+    border: 1px solid #dce1e5;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+/* /page-plan */
+
+/* page-team */
+/* /page-team */
+
+/* page-form */
+/* /page-form */
+
+/* footer */
+/* /footer */
