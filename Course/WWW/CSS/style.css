@@ -11,7 +11,8 @@ body {
 a {
     text-decoration: none;
 }
-.wrap{
+
+.wrap {
     max-width: 1110px;
     margin: 0 auto;
 }
@@ -138,12 +139,19 @@ h1 {
 /* /page-software */
 
 /* page-stat */
+.page-stat {
+    background-color: #edf6ff;
+    padding: 116px 0 96px 0;
+}
+
 .list-stat {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+    margin-top: 76px;
 }
-.list-stat>li{
+
+.list-stat>li {
     font-size: 12px;
     font-weight: 700;
     color: #1085e4;
@@ -152,12 +160,20 @@ h1 {
     letter-spacing: 2.7px;
 }
 
-.list-stat>li>span{
+.list-stat>li>span {
     display: block;
     color: #bacbdc;
     font-size: 60px;
     letter-spacing: 0;
     margin-bottom: 23px;
+}
+
+.page-stat .title-h2, .page-screen .title-h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+.page-stat .title-h2{
+    max-width: 500px;
 }
 
 /* /page-stat */
@@ -172,6 +188,24 @@ h1 {
 /* /page-app2 */
 
 /* page-screen */
+.page-screen {
+    background-color: #edf6ff;
+    padding: 116px 0 0 0;
+    text-align: center;
+}
+.page-screen .title-h2{
+    font-size: 40px;
+    letter-spacing: -1.1px;
+}
+.page-screen .title-h2 span{
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 3.5px;
+}
+.screen{
+    margin-top: 70px;
+    margin-bottom: -7px;
+}
 /* /page-screen */
 
 /* page-clients */
@@ -193,13 +227,24 @@ h1 {
 /* /page-plan */
 
 /* page-team */
-.title-h2{
-
+.title-h2 {
+    color: #192b59;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
 }
 
-.title-h2 span{
+.title-h2 span {
     display: block;
+    font-size: 16px;
+    color: #1085e4;
+    font-weight: 800;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
+
 /* /page-team */
 
 /* page-form */
