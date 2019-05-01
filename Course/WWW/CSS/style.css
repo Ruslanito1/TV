@@ -17,6 +17,24 @@ a {
     margin: 0 auto;
 }
 
+.title-40 {
+    font-size: 40px;
+    letter-spacing: -1.1px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 1.2;
+}
+
+.title-40 span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 3.5px;
+    font-weight: 800;
+    color: #1085e4;
+    text-transform: uppercase;
+}
+
 /* page-header */
 h1 {
     font-size: 80px;
@@ -168,11 +186,13 @@ h1 {
     margin-bottom: 23px;
 }
 
-.page-stat .title-h2, .page-screen .title-h2 {
+.page-stat .title-h2,
+.page-screen .title-h2 {
     text-align: center;
     margin: 0 auto;
 }
-.page-stat .title-h2{
+
+.page-stat .title-h2 {
     max-width: 500px;
 }
 
@@ -193,19 +213,21 @@ h1 {
     padding: 116px 0 0 0;
     text-align: center;
 }
-.page-screen .title-h2{
+
+/* .page-screen .title-h2{
     font-size: 40px;
     letter-spacing: -1.1px;
-}
-.page-screen .title-h2 span{
+} */
+/* .page-screen .title-h2 span{
     font-size: 18px;
     margin-bottom: 20px;
     letter-spacing: 3.5px;
-}
-.screen{
-    margin-top: 70px;
+} */
+.screen {
+    margin-top: 36px;
     margin-bottom: -7px;
 }
+
 /* /page-screen */
 
 /* page-clients */
@@ -225,6 +247,29 @@ h1 {
 }
 
 /* /page-plan */
+.page-plan {
+    padding: 116px 0 0 0;
+    text-align: center;
+}
+
+.box-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-price-item {
+    background-color: #f3faff;
+}
+
+.box-price-item.active {
+    background-color: #192b59;
+    color: #fff;
+}
+
+.box-price-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
 
 /* page-team */
 .title-h2 {
