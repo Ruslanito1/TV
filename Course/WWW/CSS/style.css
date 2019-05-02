@@ -195,6 +195,43 @@ h1 {
 /* /page-company */
 
 /* page-grid */
+.grid{
+    display: grid;
+    grid-template-areas:"a b c"
+                        "d b c"
+                        "d f g"
+                        "e f g"
+                        "e h h";
+    max-width: 1110px;
+margin: 0 auto;
+}
+
+.grid-item-1{
+    grid-area: b;
+}
+.grid-item-2{
+    grid-area: c;
+}
+.grid-item-3{
+    grid-area: d;
+}
+.grid-item-4{
+    grid-area: e;
+}
+.grid-item-5{
+    grid-area: f;
+}
+.grid-item-6{
+    grid-area: g;
+}
+.grid-text{
+    grid-area: h;
+}
+
+.grid-titile{
+    grid-area:a;
+}
+
 .grid h2 {
     font-size: 40px;
     font-weight: 700;
@@ -208,24 +245,60 @@ h1 {
     display: block;
 }
 
+.grid-item{
+    text-align: center;
+    box-shadow: 0 0 5px #f4f4f4;
+}
+
 .grid .grid-item h3 {
     font-size: 20px;
     font-weight: 600;
     color: #192b59;
+    margin-bottom: 18px;
 }
-
-/* .grid .grid-item p{
-    font-size:16px;
-    font-weight: 400;
-    color: #7581a1;
-    line-height: 26px;
-} */
 
 .grid .grid-item a {
     font-size: 14px;
     font-weight: 600;
     color: #1085e4;
 
+}
+
+.grid-icon{
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto 36px;
+}
+
+.grid-icon-1{
+    background-image: url("../Images/features-logo_mfd.png");
+    width: 79px;
+    height: 82px;
+}
+.grid-icon-2{
+    background-image: url("../Images/features-logo_ete.png");
+    width: 102px;
+    height: 92px;
+}
+.grid-icon-3{
+    background-image: url("../Images/features-logo_wd.png");
+    width: 73px;
+    height: 79px;
+}
+.grid-icon-4{
+    background-image: url("../Images/features-logo_rd.png");
+    width: 85px;
+    height: 90px;
+}
+.grid-icon-5{
+    background-image: url("../Images/features-logo_hc.png");
+    width: 89px;
+    height: 85px;
+}
+.grid-icon-6{
+    background-image: url("../Images/features-logo_24x7.png");
+    width: 100px;
+    height: 87px;
 }
 
 /* /page-grid */
@@ -365,15 +438,6 @@ h1 {
     text-align: center;
 }
 
-/* .page-screen .title-h2{
-    font-size: 40px;
-    letter-spacing: -1.1px;
-} */
-/* .page-screen .title-h2 span{
-    font-size: 18px;
-    margin-bottom: 20px;
-    letter-spacing: 3.5px;
-} */
 .screen {
     margin-top: 36px;
     margin-bottom: -7px;
