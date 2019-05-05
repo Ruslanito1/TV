@@ -409,24 +409,41 @@ h1 {
 /* /page-subscribe */
 
 /* page-software */
-.page-software{
+.page-software {
     padding: 109px 0 106px 0;
+    display: flex;
+    background-image: url("../Images/features2-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .page-software-icon {
     display: block;
-    background-image: url(../Images/features3-icon.png);
+    background-image: url("../Images/features3-icon.png");
     background-repeat: no-repeat;
     background-position: -14px 0;
     width: 118px;
     height: 98px;
 }
-.page-software-flex{
+
+.page-software-flex {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-basis: 47%;
+    z-index: 2;
 }
 
-.page-software-flex>div{
-    flex-basis: 55%;
+.page-software-image {
+    display: block;
+    background-image: url("../Images/features2-screen.png");
+    width: 931px;
+    height: 829px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.page-software-flex>div {
+    flex-basis: 65%;
 }
 
 .page-software .title-h2 {
@@ -437,7 +454,7 @@ h1 {
 
 .page-software-list {
     margin-top: 30px;
-    height: 323px;
+    height: 250px;
     overflow: hidden;
     overflow-y: scroll;
 }
