@@ -415,22 +415,23 @@ h1 {
     background-image: url("../Images/features2-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .page-software-icon {
     display: block;
     background-image: url("../Images/features3-icon.png");
     background-repeat: no-repeat;
-    background-position: -14px 0;
+    /* background-position: -14px 0; */
     width: 118px;
     height: 98px;
 }
 
 .page-software-flex {
     display: flex;
-    justify-content: flex-start;
-    flex-basis: 47%;
-    z-index: 2;
+    justify-content: flex-end;
+    flex-basis: 100%;
 }
 
 .page-software-image {
@@ -439,11 +440,14 @@ h1 {
     width: 931px;
     height: 829px;
     background-repeat: no-repeat;
-    z-index: 1;
+    position: absolute;
 }
 
 .page-software-flex>div {
     flex-basis: 65%;
+    padding-left: 138px;
+    box-sizing: border-box;
+    margin-bottom: 26px;
 }
 
 .page-software .title-h2 {
@@ -457,6 +461,25 @@ h1 {
     height: 250px;
     overflow: hidden;
     overflow-y: scroll;
+}
+
+.page-software-list::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.page-software-list::-webkit-scrollbar-button {
+    background-color: #1085e4;
+}
+
+.page-software-list::-webkit-scrollbar-track-piece {
+    background-color: #f3f6ff;
+}
+
+.page-software-list::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #1085e4;
+    border-radius: 10px;
 }
 
 .page-software-list dt {
@@ -517,6 +540,38 @@ h1 {
 /* /page-stat */
 
 /* page-app */
+.page-app-text {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c4d2dd;
+}
+
+.page-app-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.page-app-list>li{
+    display: inline-block;
+}
+
+.page-app-list>li>a {
+    background-image: url("../Images/video_2app.png");
+    display: block;
+    background-repeat: no-repeat;
+    width: 185px;
+    height: 78px;
+}
+
+.page-app-list>li>a.page-app-android {
+    background-position: 0 0;
+}
+
+.page-app-list>li>a.page-app-ios {
+    background-position: -190px 0;
+}
+
 /* /page-app */
 
 /* page-analytics */
