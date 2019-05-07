@@ -589,6 +589,27 @@ h1 {
 /* page-analytics */
 .page-analytics{
     background-image: url("../Images/features3-bg.png");
+    background-repeat: no-repeat;
+}
+
+.page-analytics-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 175px;
+    padding-bottom: 175px;
+}
+
+.page-analytics_content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.page-analytics_icon{
+    background-image: url("../Images/features4-icon.png");
+    width: 114px;
+    height: 84px;
+    background-repeat: no-repeat;
 }
 /* /page-analytics */
 
