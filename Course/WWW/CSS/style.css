@@ -540,6 +540,11 @@ h1 {
 /* /page-stat */
 
 /* page-app */
+
+.page-app {
+    position: relative;
+    height: 621px;
+}
 .page-app-text {
     font-size: 16px;
     font-weight: 700;
@@ -547,34 +552,44 @@ h1 {
     color: #c4d2dd;
 }
 
+.page-app .title-h2{
+    width: 450px;
+    padding-top: 65px;
+}
+
+.page-app p{
+    width: 600px;
+}
+
 .page-app-list {
-    padding: 0;
-    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-.page-app-list>li{
-    display: inline-block;
+.page-app-list .page-app-android {
+    width: 161px;
+    height: 64px;
+    padding-right: 30px;
 }
 
-.page-app-list>li>a {
-    background-image: url("../Images/video_2app.png");
-    display: block;
-    background-repeat: no-repeat;
-    width: 185px;
-    height: 78px;
+.page-app-list .page-app-ios {
+    width: 152px;
+    height: 64px;
 }
 
-.page-app-list>li>a.page-app-android {
-    background-position: 0 0;
-}
-
-.page-app-list>li>a.page-app-ios {
-    background-position: -190px 0;
+.page-app>a>img{
+    position: absolute;
+    right: 180px;
+    top: 53px;
 }
 
 /* /page-app */
 
 /* page-analytics */
+.page-analytics{
+    background-image: url("../Images/features3-bg.png");
+}
 /* /page-analytics */
 
 /* page-app2 */
