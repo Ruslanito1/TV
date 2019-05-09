@@ -42,6 +42,7 @@ a {
     background-size: cover;
     padding: 53px 0 330px 0;
     position: relative;
+    background-position: center;
 }
 
 .box-header {
@@ -138,6 +139,7 @@ h1 {
     display: block;
     background-image: url("../Images/header-screen.png");
     background-repeat: no-repeat;
+    background-position: center;
     width: 895px;
     height: 740px;
     position: absolute;
@@ -151,6 +153,7 @@ h1 {
 .page-company {
     background-image: url("../Images/sponsors-bg.png");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     padding: 106px 0 99px 0;
 }
@@ -415,6 +418,7 @@ h1 {
     background-image: url("../Images/features2-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
     overflow: hidden;
 }
@@ -426,6 +430,7 @@ h1 {
     /* background-position: -14px 0; */
     width: 118px;
     height: 98px;
+    background-position: center;
 }
 
 .page-software-flex {
@@ -441,6 +446,7 @@ h1 {
     height: 829px;
     background-repeat: no-repeat;
     position: absolute;
+    background-position: center;
 }
 
 .page-software-flex>div {
@@ -591,6 +597,7 @@ h1 {
     background-image: url("../Images/features3-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 117px 0 137px 0;
 
 }
@@ -628,6 +635,7 @@ h1 {
 .page-app2{
     background-image: url("../Images/featutures_2-bg.png");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     padding: 120px 0 105px 0;
 }
@@ -645,6 +653,7 @@ h1 {
 .page-app2-icon{
     background-image: url("../Images/features4-icon.png");
     background-repeat: no-repeat;
+    background-position: center;
     width: 114px;
     height: 84px;
 }
@@ -670,6 +679,64 @@ h1 {
 /* /page-screen */
 
 /* page-clients */
+.page-clients{
+    background-image: url("../Images/clients_pricing-bg.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding: 16px 0 13px 0;
+    margin-top: 20%;
+    background-size: 80%;
+}
+
+.page-clients .title-40{
+    color: #fff;
+}
+.page-clients .title-40 span{
+    color: #85c8ff;
+}
+.box-clients{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px;
+}
+.box-clients-item{
+    background-color: #fff;
+    padding: 21px 42px;
+    border-radius: 10px;
+    flex-basis: 31.5%;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.1;
+    box-shadow: 0 9px 20px #f4f4f4;
+}
+.box-clients-item .name{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000958;
+    margin-bottom: 0;
+    letter-spacing: -0,6px;
+}
+.box-clients-item .position{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1085e4;
+    margin-top: 0;
+    letter-spacing: 3px;
+}
+.box-clients-item .box-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -10px;
+}
+.box-clients-item .box-info>div{
+    padding-left: 17px;
+}
+.box-clients-item>p{
+margin-bottom: 3px;
+}
+
 /* /page-clients */
 
 /* page-plan */
