@@ -680,12 +680,22 @@ h1 {
 
 /* page-clients */
 .page-clients{
+    position: relative;
+    margin-top: 120px;
+    padding: 43px 0 0 0;
+}
+
+.page-clients::before{
+    content: '';
+    display: block;
     background-image: url("../Images/clients_pricing-bg.svg");
-    background-position: 0 0;
     background-repeat: no-repeat;
-    padding: 16px 0 13px 0;
-    margin-top: 20%;
-    background-size: 80%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 .page-clients .title-40{
