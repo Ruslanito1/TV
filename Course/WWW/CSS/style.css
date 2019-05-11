@@ -952,15 +952,21 @@ h1 {
     display: block;
     background-image: url("../Images/team-img_plus.png");
     background-repeat: no-repeat;
-    width: 17px;
-    height: 17px;
     border: none;
-    margin: 0 auto;
 }
 
 .page-team .btn-more:focus{
     outline: none;
 }
+.page-team .btn-team{
+    display: block;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    margin: 0 auto;
+    width: 17px;
+    height: 17px;
+}
+
 
 /* /page-team */
 
