@@ -893,7 +893,8 @@ h1 {
     background-color: #fff;
     box-shadow: 0 5px 6px #f4f4f4;
     position: relative;
-    padding: 193px 0 42px 0;
+    padding: 193px 31px 42px 31px;
+    box-sizing: border-box;
 }
 
 .page-team .photo-1{
@@ -948,24 +949,78 @@ h1 {
     letter-spacing: -0.9px;
 }
 
-.page-team .btn-more{
-    display: block;
-    background-image: url("../Images/team-img_plus.png");
+.page-team .btn-team span{
+    background-image: url("../Images/btn-team.png");
     background-repeat: no-repeat;
-    border: none;
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+}
+.page-team .btn-more span{
+    background-position: -7px -2px ;
+    width: 20px;
+    height: 21px;
 }
 
 .page-team .btn-more:focus{
     outline: none;
 }
 .page-team .btn-team{
-    display: block;
+    display: flex;
     background-color: #f3f3f3;
     border-radius: 100%;
+    border: none;
     margin: 0 auto;
-    width: 17px;
-    height: 17px;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+    padding: 0;
 }
+.page-team .btn-team:hover{
+    background-color: #1a88e1;
+}
+
+.page-team .btn-more:hover span{
+    background-position: -7px -30px ;
+}
+.page-team .social-team{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.page-team .btn-fb span{
+    background-position: -31px 8px;
+    width: 16px;
+    height: 40px;
+}
+.page-team .btn-fb:hover span{
+    background-position: -31px -21px;
+}
+.page-team .btn-tw span{
+    background-position: -57px 8px;
+    width: 16px;
+    height: 40px;
+}
+.page-team .btn-tw:hover span{
+    background-position: -57px -21px;
+}
+.page-team .btn-be span{
+    background-position: -83px 8px;
+    width: 16px;
+    height: 40px;
+}
+.page-team .btn-be:hover span{
+    background-position: -83px -21px;
+}
+.page-team .btn-web span{
+    background-position: -109px 8px;
+    width: 16px;
+    height: 40px;
+}
+.page-team .btn-web:hover span{
+    background-position: -109px -21px;
 
 
 /* /page-team */
