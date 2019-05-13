@@ -365,7 +365,7 @@
                     <p class="position">founder</p>
                     <p class="name">Alberto Del Rio</p>
                     <button class="btn-team btn-more btn-alberto" type="button"><span></span></button>
-                    <ul class="social-team social-alberto style="display: none;">
+                    <ul class="social-team social-alberto" style="display: none;">
                         <li><a href="" target="_blank" class="btn-team btn-fb"><span></span></a></li>
                         <li><a href="" target="_blank" class="btn-team btn-tw"><span></span></a></li>
                         <li><a href="" target="_blank" class="btn-team btn-be"><span></span></a></li>
@@ -377,7 +377,7 @@
                     <p class="position">founder</p>
                     <p class="name">Thomas Alva Adison</p>
                     <button class="btn-team btn-more btn-thomas" type="button"><span></span></button>
-                    <ul class="social-team social-thomas style="display: none;">
+                    <ul class="social-team social-thomas" style="display: none;">
                         <li><a href="" target="_blank" class="btn-team btn-fb"><span></span></a></li>
                         <li><a href="" target="_blank" class="btn-team btn-tw"><span></span></a></li>
                         <li><a href="" target="_blank" class="btn-team btn-be"><span></span></a></li>
@@ -408,7 +408,27 @@
             </ul>
         </div>
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".btn-ricardo").click(function () {
+                $(".btn-ricardo").hide();
+                $(".social-ricardo").fadeIn();
+            });
+        });
+        $(document).ready(function () {
+            $(".btn-alberto").click(function () {
+                $(".btn-alberto").hide();
+                $(".social-alberto").fadeIn();
+            });
+        });
+        $(document).ready(function () {
+            $(".btn-thomas").click(function () {
+                $(".btn-thomas").hide();
+                $(".social-thomas").fadeIn();
+            });
+        });
+    </script>
 </body>
 
 </html>
